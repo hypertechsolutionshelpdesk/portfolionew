@@ -15,12 +15,11 @@ import { VscVscode, VscCommentUnresolved, VscTerminalPowershell, VscSymbolVariab
 import { FaGitAlt, FaXTwitter, FaDribbble } from "react-icons/fa6";
 import { MdGroups3, MdReportProblem, MdSyncProblem } from "react-icons/md";
 
-import projectImg1 from "../assets/images/1.jpg";
-import projectImg2 from "../assets/images/2.jpg";
-import projectImg3 from "../assets/images/3.jpg";
-import projectImg4 from "../assets/images/1.jpg";
-import projectImg5 from "../assets/images/2.jpg";
-import projectImg6 from "../assets/images/3.jpg";
+import projectImg1 from "../assets/images/1.png";
+import projectImg2 from "../assets/images/2.png";
+import projectImg3 from "../assets/images/3.png";
+import projectImg4 from "../assets/images/4.png";
+import projectImg5 from "../assets/images/5.png";
 import { FcCollaboration } from "react-icons/fc";
 import { AiTwotoneReconciliation } from "react-icons/ai";
 
@@ -105,11 +104,11 @@ export const ABOUT_ME = {
     \nI'm a creative frontend developer based in Nigeria, passionate about creating seamless web experiences and easy accessibility for all users. My focus is on crafting intuitive, responsive, user-friendly interfaces that empowers users and drives meaningful brand growth. I'm comfortable in my ability in adapting to new technologies, as well as to collaborate with cross-functional teams. I'm always looking for new challenges to take on.`,
 
     socialLinks: [
-        { id: '01', label: 'Linkedin', icon: FaLinkedin, link: "#" },
-        { id: '02', label: 'Twitter', icon: FaXTwitter, link: "#" },
-        { id: '03', label: 'Facebook', icon: FaFacebook, link: "#" },
-        { id: '04', label: 'Instagram', icon: FaInstagram, link: "#" },
-        { id: '05', label: 'GitHub', icon: FaGithub, link: "#" },
+        { id: '01', label: 'Linkedin', icon: FaLinkedin, link: "https://www.linkedin.com/in/fifelola-olamide-idowu-7466a4119/" },
+        { id: '02', label: 'Twitter', icon: FaXTwitter, link: "https://www.twitter.com/hidycoal" },
+        { id: '03', label: 'Facebook', icon: FaFacebook, link: "https://www.facebook.com/hidycoal" },
+        { id: '04', label: 'Instagram', icon: FaInstagram, link: "https://www.instagram.com/hidycoal" },
+        { id: '05', label: 'GitHub', icon: FaGithub, link: "https://github.com/hypertechsolutionshelpdesk" },
     ],
 
     email: 'hidycoal@gmail.com',
@@ -121,40 +120,45 @@ export const ABOUT_ME = {
 export const PROJECTS = [
     {
         id: 1,
-        title: 'project1',
+        title: 'Hamzony Studio - A Creative Photography Website',
         image: projectImg1,
-        tags: ['React', 'Express.JS', 'MongoDB', 'Node.JS'],
+        tags: [],
+        demoUrl: 'https://hamzonystudios.vercel.app/',
     },
     {
         id: 2,
-        title: 'project2',
+        title: 'Ile Wa - A Real Estate Website',
         image: projectImg2,
-        tags: ['React', 'Express.JS', 'MongoDB', 'Node.JS'],
+        tags: [],
+        demoUrl: 'https://ilewa-realty-eight.vercel.app/',
     },
     {
         id: 3,
-        title: 'project3',
+        title: 'Food Delivery App',
         image: projectImg3,
-        tags: ['React', 'Express.JS', 'MongoDB', 'Node.JS'],
+        tags: [],
+        demoUrl: 'https://fooddelfrontend.surge.sh/',
     },
     {
         id: 4,
-        title: 'project4',
-        image: projectImg1,
-        tags: ['React', 'Express.JS', 'MongoDB', 'Node.JS'],
+        title: 'Web Developer Portfolio',
+        image: projectImg4,
+        tags: [],
+        demoUrl: 'https://hidycoalv1.vercel.app/',
     },
     {
         id: 5,
-        title: 'project5',
-        image: projectImg2,
-        tags: ['React', 'Express.JS', 'MongoDB', 'Node.JS'],
+        title: 'English Dictionary',
+        image: projectImg5,
+        tags: [],
+        demoUrl: 'https://dictionary-nx90.onrender.com/',
     },
-    {
-        id: 6,
-        title: 'project6',
-        image: projectImg3,
-        tags: ['React', 'Express.JS', 'MongoDB', 'Node.JS'],
-    },
+    // {
+    //     id: 6,
+    //     title: 'project6',
+    //     image: projectImg3,
+    //     tags: ['React', 'Express.JS', 'MongoDB', 'Node.JS'],
+    // },
 ]
 
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 import PROFILE_PIC from "../assets/images/profile_pic.png"
 import ICON_1 from "../assets/images/react.png"
@@ -7,6 +8,7 @@ import ICON_3 from "../assets/images/html.png"
 import ICON_4 from "../assets/images/css.png"
 import { STATS } from "../utils/data";
 import StatInfoCard from "../components/StatInfoCard";
+import cvPdf from "../assets/images/Cv.pdf";
 
 const Hero = () => {
   return (
@@ -23,8 +25,22 @@ const Hero = () => {
           </p>
 
           <div className="flex justify-center lg:justify-start gap-4 md:gap-8 mt-6">
-            <button className="flex-1 md:flex-none action-btn-outline btn-scale-anim">View My Work</button>
-            <button className="flex-1 md:flex-none action-btn btn-scale-anim ">Download Resume</button>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              offset={-80}
+              className="flex-1 md:flex-none action-btn-outline btn-scale-anim text-center flex items-center justify-center cursor-pointer"
+            >
+              View My Work
+            </Link>
+            <a
+              href={cvPdf}
+              download="Cv.pdf"
+              className="flex-1 md:flex-none action-btn btn-scale-anim text-center flex items-center justify-center"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
         <div className="w-[300px] md:w-[370px] h-[350px] md:h-[428px] bg-blue-100/50 rounded-3xl relative order-1 lg:order-2 ">
