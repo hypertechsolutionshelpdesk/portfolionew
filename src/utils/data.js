@@ -61,40 +61,40 @@ export const SKILLS = [
         id: '04', icon: BiLogoJavascript, skill: 'JS', progress: 90, type: 'frontend', description: 'Experienced in developing dynamic and interactive web applications using JavaScript, writing clean, modular, and maintainable code, managing application logic and DOM manipulation efficiently, working with APIs and asynchronous programming for seamless functionality.'
     },
     {
-        id: '05', icon: FaNodeJs, skill: 'Node.Js', progress: 60, type: 'backend', description: 'Experienced in building scalable, high-performance backend applications using Node.js, developing RESTful APIs, server-side logic, real time data processing, integrating databases and third party services for robust functionality, and collaborating with frontend technologies to deliver fullstack solutions.'
+        id: '05', icon: FaNodeJs, skill: 'Node.Js', progress: 50, type: 'backend', description: 'Experienced in building scalable, high-performance backend applications using Node.js, developing RESTful APIs, server-side logic, real time data processing, integrating databases and third party services for robust functionality, and collaborating with frontend technologies to deliver fullstack solutions.'
     },
     {
-        id: '06', icon: SiExpress, skill: 'Express.JS', progress: 60, type: 'backend', description: 'Experienced in building scalable backend applications with Express.js, developing RESTful APIs and handling server-side logic efficiently, implementing middleware and authentication systems, and integrating databases and third-party services for robust web applications.'
+        id: '06', icon: SiExpress, skill: 'Express.JS', progress: 50, type: 'backend', description: 'Experienced in building scalable backend applications with Express.js, developing RESTful APIs and handling server-side logic efficiently, implementing middleware and authentication systems, and integrating databases and third-party services for robust web applications.'
     },
     {
-        id: '07', icon: SiMongodb, skill: 'MongoDB', progress: 60, type: 'backend', description: 'Skilled in designing and managing scalable MongoDB databases, developing efficient queries and indexes, ensuring data integrity, performance, schema design best practices, integrating MongoDB with backend applications and third-party services for high-performance web solutions.'
+        id: '07', icon: SiMongodb, skill: 'MongoDB', progress: 50, type: 'backend', description: 'Skilled in designing and managing scalable MongoDB databases, developing efficient queries and indexes, ensuring data integrity, performance, schema design best practices, integrating MongoDB with backend applications and third-party services for high-performance web solutions.'
     },
     {
-        id: '08', icon: SiMysql, skill: 'SQL', progress: 60, type: 'backend', description: 'knowledgeable in designing, managing relational databases with SQL, writing optimized queries, ensuring data integrity, normalization, implementing complex joins and transactions, integrating SQL databases with backend applications and third-party services to deliver robust web solutions.'
+        id: '08', icon: SiMysql, skill: 'SQL', progress: 50, type: 'backend', description: 'knowledgeable in designing, managing relational databases with SQL, writing optimized queries, ensuring data integrity, normalization, implementing complex joins and transactions, integrating SQL databases with backend applications and third-party services to deliver robust web solutions.'
     },
     {
-        id: '09', icon: FaGitAlt, skill: 'Git & GitHub', progress: 60, type: 'tools', description: 'Proficient in using Git for version control and GitHub for collaborative software development, including branching, merging, pull requests, and resolving conflicts. Skilled in maintaining clean commit histories, managing repositories, team collaboration and deliver reliable, high-quality code.'
+        id: '09', icon: FaGitAlt, skill: 'Git & GitHub', progress: 80, type: 'tools', description: 'Proficient in using Git for version control and GitHub for collaborative software development, including branching, merging, pull requests, and resolving conflicts. Skilled in maintaining clean commit histories, managing repositories, team collaboration and deliver reliable, high-quality code.'
     },
     {
-        id: '10', icon: VscVscode, skill: 'Visual Studio Code', progress: 75, type: 'tools', description: 'Proficient in using VS Code for efficient software development and debugging. Skilled in customizing the IDE with extensions, themes, and settings to optimize productivity, collaborative development, live sharing, debugging, and seamless workflow with Git/GitHub to deliver high-quality, maintainable code.'
+        id: '10', icon: VscVscode, skill: 'Visual Studio Code', progress: 95, type: 'tools', description: 'Proficient in using VS Code for efficient software development and debugging. Skilled in customizing the IDE with extensions, themes, and settings to optimize productivity, collaborative development, live sharing, debugging, and seamless workflow with Git/GitHub to deliver high-quality, maintainable code.'
     },
     {
         id: '11', icon: SiWebpack, skill: 'Webpack', progress: 60, type: 'tools', description: 'Skilled in using Webpack to optimize and streamline web application development. Configuring loaders, plugins, and output settings to efficiently bundle JavaScript, CSS, and assets. Implementing code splitting, tree shaking, and caching strategies to enhance performance and reduce load times.'
     },
     {
-        id: '12', icon: SiNpm, skill: 'NPM', progress: 60, type: 'tools', description: 'Skilled in using Webpack to optimize and streamline web application development. Configuring loaders, plugins, and output settings to efficiently bundle JavaScript, CSS, and assets. Implementing code splitting, tree shaking, and caching strategies to enhance performance and reduce load times.'
+        id: '12', icon: SiNpm, skill: 'NPM', progress: 70, type: 'tools', description: 'Skilled in using Webpack to optimize and streamline web application development. Configuring loaders, plugins, and output settings to efficiently bundle JavaScript, CSS, and assets. Implementing code splitting, tree shaking, and caching strategies to enhance performance and reduce load times.'
     },
     {
-        id: '13', icon: VscSymbolVariable, skill: 'Problem-Solving', progress: 70, type: 'skills', description: 'Skilled in breaking down challenges into manageable components, applying logical reasoning, and leveraging both technical and creative approaches. Experienced in debugging code, optimizing algorithms, and troubleshooting system issues to ensure robust, high-quality outcomes.'
+        id: '13', icon: VscSymbolVariable, skill: 'Problem-Solving', progress: 80, type: 'skills', description: 'Skilled in breaking down challenges into manageable components, applying logical reasoning, and leveraging both technical and creative approaches. Experienced in debugging code, optimizing algorithms, and troubleshooting system issues to ensure robust, high-quality outcomes.'
     },
     {
-        id: '14', icon: FcCollaboration, skill: 'Collaboration', progress: 60, type: 'skills', description: 'Experienced in working effectively within cross-functional teams to deliver high-quality software solutions. Skilled in clear communication, knowledge sharing, and coordinating tasks to align with project goals. Using tools such as GitHub, VS Code Live Share, resolve conflicts, and ensure timely delivery.'
+        id: '14', icon: FcCollaboration, skill: 'Collaboration', progress: 90, type: 'skills', description: 'Experienced in working effectively within cross-functional teams to deliver high-quality software solutions. Skilled in clear communication, knowledge sharing, and coordinating tasks to align with project goals. Using tools such as GitHub, VS Code Live Share, resolve conflicts, and ensure timely delivery.'
     },
     {
-        id: '15', icon: AiTwotoneReconciliation, skill: 'Attention to Detail', progress: 80, type: 'skills', description: 'Highly attentive to detail, consistently ensuring accuracy, quality, and completeness in all aspects of work. Code reviews, documentation, and project deliverables to identify errors or areas for improvement. Proficient in using tools and processes that support thoroughness and precision.'
+        id: '15', icon: AiTwotoneReconciliation, skill: 'Attention to Detail', progress: 95, type: 'skills', description: 'Highly attentive to detail, consistently ensuring accuracy, quality, and completeness in all aspects of work. Code reviews, documentation, and project deliverables to identify errors or areas for improvement. Proficient in using tools and processes that support thoroughness and precision.'
     },
     {
-        id: '16', icon: AiTwotoneReconciliation, skill: 'Communication', progress: 80, type: 'skills', description: 'Skilled in clearly conveying complex ideas and information to diverse audiences, ensuring understanding and alignment. Documentation, presentations and reports that are concise, accurate, and impactful. Adept at active listening, facilitating discussions, and collaborating across teams to achieve shared goals.'
+        id: '16', icon: AiTwotoneReconciliation, skill: 'Communication', progress: 90, type: 'skills', description: 'Skilled in clearly conveying complex ideas and information to diverse audiences, ensuring understanding and alignment. Documentation, presentations and reports that are concise, accurate, and impactful. Adept at active listening, facilitating discussions, and collaborating across teams to achieve shared goals.'
     },
 ];
 
