@@ -118,17 +118,17 @@ export const ABOUT_ME = {
 export const PROJECTS = [
     {
         id: 1,
-        title: 'Hamzony Studio - A Creative Photography Website',
-        image: projectImg1,
-        tags: [],
-        demoUrl: 'https://hamzonystudios.vercel.app/',
-    },
-    {
-        id: 2,
         title: 'Ile Wa - A Real Estate Website',
         image: projectImg2,
         tags: [],
         demoUrl: 'https://ilewa-realty-eight.vercel.app/',
+    },
+    {
+        id: 2,
+        title: 'Hamzony Studio - A Creative Photography Website',
+        image: projectImg1,
+        tags: [],
+        demoUrl: 'https://hamzonystudios.vercel.app/',
     },
     {
         id: 3,
