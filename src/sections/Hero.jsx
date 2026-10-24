@@ -19,9 +19,8 @@ const Hero = () => {
           <h1 className="w-full lg:w-[480px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] mt-3 bg-gradient-primary bg-clip-text text-transparent">Building Scalable & User Centric Web Solutions</h1>
 
           <p className="w-full lg:w-[500px] text-sm lg:text-base mt-4 ">
-            I'm a passionate aspiring Full Stack Developer crafting responsive,
-            accessible, and dynamic web experiences using React, Node.Js, and
-            TailwindCSS.
+            I'm a passionate Frontend Developer crafting responsive,
+            accessible, and dynamic web experiences.
           </p>
 
           <div className="flex justify-center lg:justify-start gap-4 md:gap-8 mt-6">
