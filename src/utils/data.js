@@ -99,7 +99,7 @@ export const SKILLS = [
 ];
 
 export const ABOUT_ME = {
-    content: `I’m a creative Frontend Web Developer focused on building fast, scalable, user-centric applications, and seamless web experiences with easy accessibility for all users. My focus is on crafting intuitive, responsive, user-friendly interfaces that empowers users and drives meaningful brand growth. I'm comfortable in my ability in adapting to new technologies, as well as to collaborate with cross-functional teams. I'm always looking for new challenges to take on.`,
+    content: `I’m a creative Frontend Web Developer focused on building fast, scalable, user-centric applications and seamless web experiences with easy accessibility for all users. My focus is on crafting intuitive, responsive, user-friendly interfaces that empowers users and drives meaningful brand growth. I'm comfortable in my ability in adapting to new technologies, as well as to collaborate with cross-functional teams. I'm always looking for new challenges to take on.`,
 
     socialLinks: [
         { id: '01', label: 'Linkedin', icon: FaLinkedin, link: "https://www.linkedin.com/in/fifelola-olamide-idowu-7466a4119/" },
